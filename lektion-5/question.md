@@ -5,13 +5,15 @@ Deklarera en array som består av tre texter. Nämligen "Kunskap", "Tryghet" och
 
 ## __1__ _E_  
 Gör ett program som fungera så att om användaren skriver in två helltal 3 och 4. Så ska användaren få se utskriften "3 April". Du behöver inte kontrollera om dagen verkligen finns, så "31 2" blir "31 Feburari". Du ska använda en array på ett smart sätt för att lösa denna uppgift.
-Tips: Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December.
+
+__Tips:__ _Januari, Februari, Mars, April, Maj, Juni, Juli, Augusti, September, Oktober, November, December._
 
 ## __2__ _N_  
 Låt användaren skriva in ett antal heltal. När användaren skriver in en 0 så ska inläsningen avbrytas och medeltalet ska skrivas ut. 
 
 ## __3__ _N_  
 Låt användaren skriva in tio heltal. Skriv sedan ut medianen.
+
 __Tips:__ _Arrays.sort(array);_
 
 ## __4__ _N_  
@@ -25,6 +27,7 @@ Låt användaren skriva in ett antal heltal, men max 100 stycken. När användar
 ## __6__ _VH_
 
 Pi är ett trevligt tal som innehåller många decimaler. Räkna hur många av varje siffra som finns bland de hundra första decimalerna. Skriv ut resultatet i en ordnat lista med den siffran som förekommer flest gånger högst upp. Du ska också skriva ut hur många gånger som varje siffra finns med.
+
 __Tips:__ _3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 8214808651 3282306647 0938446095 5058223172 5359408128_ 
 
 ## __7__ _X_ 
