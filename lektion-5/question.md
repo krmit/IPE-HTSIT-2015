@@ -34,8 +34,9 @@ __Tips:__ _3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5
 
 Gör ett "Battleship (Sänka skepp)" spel. Spelplanen ska vara 5x5 rutor och det är bara motståndaren som har skepp. Denna har en ubåt som är tre rutor långt. Observera att ubåt måste placeseras ut helt slumpmässigt och du måste informera spelaren när denna har skänkt ett skepp.
 
-## __9__ _N_
+## __8__ _NM_
 
-Implementera en AI som kan spela spelet ovan. AI:n måste spela perfekt utifrån de situationer som uppstår.
+Implementera en AI som kan spela spelet ovan. AI:n måste spela perfekt utifrån de situationer som uppstår. 
+* Testa detta genom att låta AI spela 1 000 000 partier och beräkna medelvärde av hur många drag det tog.
 
    
