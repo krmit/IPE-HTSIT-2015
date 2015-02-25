@@ -50,7 +50,9 @@ Fibonaccis tal är en mycket vanlig förekommand uppgift på diverse programmeri
 En anna rolig funktion som finns är den så kallade Ackerman funktionen, här presenterad i en förenklat form. Ackerman växer så snabbt att den har teoretiska implikationer för datavetenskapen. Nedan följer en definition:
 
 Ack(0,y)=y+1
+
 Ack(x,0)=Ack(x-1,1)
+
 Ack(x,y)=Ack(x-1,y-1)
 
 Implementera denna funktion.
