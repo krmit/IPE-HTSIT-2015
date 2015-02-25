@@ -18,7 +18,7 @@ __Tips:__ Använd dessa två strängar:
 
 start=" ______________________\n< "; 
 
-end=">\n ----------------------\n   \\n    \\n        .--.\n       |o_o |\n       |:_/ |\n      //   \ \\n     (|     | )\n    /'\_   _/`\\n    \___)=(___/";
+end=">\n ----------------------\n   \\\n    \\\n        .--.\n       |o_o |\n       |:_/ |\n      //   \\ \\\n     (|     | )\n    /'\\_   _/`\\n    \\___)=(___/";
  
 
 ## __5__ _N_  
@@ -37,14 +37,24 @@ Tänk på att du måste kontrollera om (p/2)^2 - q är störe än 0. Om det inte
 
 ## __7__ _H_
 
+Du ska göra ett program som beräknar arean av ett område som är sammansatt av trianglar, rektanglar och cirklar. Låt användaren ange vilket del område som hen vill börja mata in. Låt "t" stå för triangel, "r" för rektangel, "k" för kvadrat och "c" för cirkel. Om använjdaren skriver ett "c" så ska användaren sedan ange en radie som ett heltal. Om det är en rektangel ska användaren ange två heltal för bred och höjd. På samma sätt för kvadrat och triangel. När användaren är klar skriver hen "a" och programmet räknar då ut den totala arean. När du implementerar denna uppgift måste du använda funktioner på ett sådant sätt att din kod får en bra struktur. Se till att alla area beräkningar sker i separata funktioner.
 
 ## __8__ _VH_
+
+Fibonaccis tal är en mycket vanlig förekommand uppgift på diverse programmerings prov och tävlingar. Ofta maskerade på ett heller annat sätt. Det finns olika sätt att beräkna dem men här ska vi använda oss av recursion, dvs att vår funktion ska anropa sig själv. Vi ska ha en funktion, som vi kallar f, som tar en heltals parameter, somm vi här kallar _x_ och som dessutom måste vara större än 0. Om x är lika med 0 eller 1 ska funktionen returnera 1. I annat fall ska funktionen returnera f(x-1)+f(x-2), dvs den ska anropa sig själv igen men minska på in parametern.
+  * Vilket är det högsta Fibonaccis tal du kna beräkna med den här metoden? 
 
 
 ## __9__ _X_ 
 
+En anna rolig funktion som finns är den så kallade Ackerman funktionen, här presenterad i en förenklat form. Ackerman växer så snabbt att den har teoretiska implikationer för datavetenskapen. Nedan följer en definition:
+
+Ack(0,y)=y+1
+Ack(x,0)=Ack(x-1,1)
+Ack(x,y)=Ack(x-1,y-1)
+
+Implementera denna funktion.
 
 ## __10__ _NM_
 
-
-   
+Skriv ut en matris över värderna för x opch y. Böra med x=0 och y=0. Du kommer märka att öven för låga värden på x oxh y kan du få problem med att beräkna värder på Ack. Om du inte lyckas beräkna Ack för ett par av värden så skriv ut ett "X". Välj själv ett lämpligt värde på största x och y.
