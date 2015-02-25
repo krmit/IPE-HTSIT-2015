@@ -16,12 +16,15 @@ Använd funktionen du definerat ovan och beräkna "1+2\*3", "2\*3+5\*7" och "3\*
 Du ska göra en funktion som tar en sträng, med max 20 tecken, som parameter och sedan skriver ut en pingvin som säger detta i en pratbubla.
 __Tips:__ Använd dessa två strängar:
 
-start=" ______________________\n< "; 
+start=
+```
+" ______________________\n< " 
+```
 
 end=
 ```
 
-">\n ----------------------\n   \\\n    \\\n        .--.\n       |o_o |\n       |:_/ |\n      //   \\ \\\n     (|     | )\n    /'\\_   _/`\\n    \\___)=(___/";
+">\n ----------------------\n   \\\n    \\\n      .--.\n     |o_o |\n     |\\_/ |\n    //   \\ \\\n   (|     | )\n  /'\\_   _/`\\\n  \\___)=(___/"
 
 ```
 
